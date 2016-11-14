@@ -1,0 +1,24 @@
+{
+  "name": "stripe-scripts",
+  "version": "1.0.0",
+  "description": "Simple console scripts for interfacing with the Stripe API.",
+  "main": "createacct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FPCSJames/stripe-scripts.git"
+  },
+  "author": "James M. Joyce, Flashpoint Computer Services, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FPCSJames/stripe-scripts/issues"
+  },
+  "homepage": "https://github.com/FPCSJames/stripe-scripts#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "stripe": "^4.12.0"
+  }
+}
