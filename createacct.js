@@ -2,7 +2,8 @@
 *  createacct.js
 *  Utility for creating Stripe Connect managed accounts at the console (live mode)
 *
-*  Copyright: 2016 James M. Joyce, Flashpoint Computer Services, LLC
+*  Author: James M. Joyce
+*  Copyright: 2016 Flashpoint Computer Services, LLC
 *  License: MIT - https://fpcs.mit-license.org
 */
 
@@ -128,6 +129,7 @@ prompt.get([
          email: results.bizEmail,
          business_name: results.bizName,
          debit_negative_balances: true,
+         statement_descriptor: results.bizStmtDesc,
          legal_entity: {
             address: {
                city: results.bizCity,
