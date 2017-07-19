@@ -3,8 +3,10 @@
 
 Node-based utility scripts for interacting with the Stripe API to handle tasks that are inefficient or impossible through the Stripe dashboard. Designed for Connect platform administrators.
 
+Recommended for use on a local machine, not a web-facing server.
+
 ## Requires
 node.js, latest stable preferred
 
 ## Usage
-Insert your secret key in place of `YOUR_STRIPE_PLATFORM_KEY_HERE` and run.
+Insert your platform secret key in place of `YOUR_STRIPE_PLATFORM_KEY_HERE` and run.
